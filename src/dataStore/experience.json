@@ -1,0 +1,55 @@
+[
+{
+    "companyId": "01",
+    "company": "",
+    "jobTitle": "",
+    "loaction": "",
+    "startDate": "",
+    "endDate": "",
+    "techStack": [
+        "",
+        ""
+    ],
+    "description": ""
+},
+{
+    "companyId": "02",
+    "company": "",
+    "jobTitle": "",
+    "loaction": "",
+    "startDate": "",
+    "endDate": "",
+    "techStack": [
+        "",
+        ""
+    ],
+    "description": ""
+},
+{
+    "companyId": "03",
+    "company": "",
+    "jobTitle": "",
+    "loaction": "",
+    "startDate": "",
+    "endDate": "",
+    "techStack": [
+        "",
+        ""
+    ],
+    "description": ""
+},
+{
+    "companyId": "04",
+    "company": "",
+    "jobTitle": "",
+    "loaction": "",
+    "startDate": "",
+    "endDate": "",
+    "techStack": [
+        "",
+        ""
+    ],
+    "description": ""
+}
+
+]
