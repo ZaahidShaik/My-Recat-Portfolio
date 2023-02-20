@@ -1,8 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-#dark {
+/* #dark {
   background-color: rgb(12, 15, 42);
   color: #fff;
 }
@@ -10,7 +10,7 @@
 #light {
   background-color: #fff;
   color: rgb(12, 15, 42);;
-}
+} */
 
 
 
@@ -51,17 +51,71 @@ body {
 }
 
 .light-theme {
-  background-color: #fff;
-  color: #444444;
+  color: #11123d;
+  background:linear-gradient(rgba(255, 255, 255, 5.0),transparent);
+  background-color:rgb(79, 79, 79) /*this your primary color*/
+}
+
+
+
+
+.dark-theme {
+  color: #f8f8f8;
+  background:linear-gradient(rgba(11, 38, 219, 0.5),transparent);
+  background-color:rgb(13, 4, 63) /*this your primary color*/
+}
+
+.dark-theme code {
+  color: red;
+}
+
+.button-container {
+  display: flex;
+  margin: 0 auto;
 }
 
 nav {
   display: flex;
   text-align: center;
-  background-color: #201147;
   width: 100%;
   padding: 20px;
-  color: #f8f8f8;
+}
+
+.Style{
+  background: #dfdfdf;
+}
+
+
+
+/* Use Trail CSS */
+
+.trailsText {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 60px;
+  color: black;
+  font-size: 5em;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trailsText > div {
+  padding-right: 0.05em;
+  overflow: hidden;
+}
+
+
+
+.container {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+
 }
 
 .content {
@@ -71,23 +125,4 @@ nav {
   font-size: 1.2rem;
   line-height: 1.1;
   height: 90vh;
-}
-
-.dark-theme {
-  background-color: #1f1b24;
-  color: #f8f8f8;
-}
-
-.dark-theme nav {
-  background-color: #332940;
-}
-
-.dark-theme code {
-  color: red;
-}
-
-.button-container {
-  /* display: flex; */
-  align-self: right;
-  margin: 0 auto;
 }
